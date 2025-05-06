@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #add8e6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #daa520;
+    border: 1px dotted black;
+  }
+  
+  .logo, .login, .links a {
+    padding: 0 10px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .hero {
+    background-color: #000080;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-box {
+    width: 60%;
+    height: 380px;
+    background-color: #ee82ee;
+    border: 1px dotted black;
+  }
+  
